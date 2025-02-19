@@ -1,0 +1,14 @@
+.Nav-nav-bar  li{
+    list-style-type: none;
+    display: flex;
+}
+
+ .Nav-nav-bar {
+    display: flex;
+    justify-content: space-between;
+ }  
+
+ .Nav-nav-bar li{
+    color: brown;
+    font-size: 20px
+ }
