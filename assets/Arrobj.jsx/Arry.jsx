@@ -2,16 +2,23 @@ import { useState } from "react"
 
 function Arry(){
 
-            let [name,setName]=useState("")
-            let [c,setC]=useState(0)
+            let ob={
 
-                    let [arry,setArray]=useState({
-                        name:"Anam",
-                        city:"Bhopal"
-                    })
+                name : "Anam",
+                age:27,
+                city:"Bhopal"
+            }
+                let ar=["Ali", "Indore",123]
+            
     return (
         <>
-            <h1>My name is {c.name}  </h1>
+                <h1>My name is {ob.name}</h1>
+                <h1>My age is {ob.age}</h1>
+                <h1>My city is {ob.city}</h1>
+
+                <h2>My name is {ar[0]}</h2>
+                <h2>My city is {ar[1]}</h2>
+                <h2>My num is {ar[2]}</h2>
         </>
     )
     

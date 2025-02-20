@@ -15,6 +15,7 @@ function Bg(){
                 <button onClick={()=>setTg(false)}>Hide</button>
                 <button onClick={()=>setTg(true)}>Show</button>
                 <button onClick={()=>setTg(!tg)}>Toggle</button>
+                
 
            </div>
         </>
