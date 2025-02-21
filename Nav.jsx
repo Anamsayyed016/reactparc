@@ -1,21 +1,17 @@
-
-function Nav()
-{
+function Navbar(){
     return(
         <>
-        <div>
-            <ul className="Nav-nav-bar">
-                <li >Logo</li>
-            
-                
+            <nav className="Nav-nav-bar">
+                <h1>Logo</h1>
+                <ul>
                     <li>Home</li>
-                    <li>About Us</li>
-                    <li>Gallery</li>
-                    <li>Conatct</li>
+                    <li>About</li>
+                    <li>Contact</li>
                 </ul>
-        </div>
+            </nav>
+        
         </>
     )
 }
 
-export default Nav
+export default Navbar

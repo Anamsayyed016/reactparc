@@ -1,11 +1,11 @@
 .Nav-nav-bar  li{
     list-style-type: none;
-    display: flex;
+   
 }
 
- .Nav-nav-bar {
+ .Nav-nav-bar ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }  
 
  .Nav-nav-bar li{

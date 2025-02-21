@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from './Nav'
-import Arry from './assets/Arrobj.jsx/Arry'
-import Bg from './Background/Bg'
+import Navbar from './Nav'
 // import Child1 from './Childcomp/Child1'
 
 function App() {
@@ -11,10 +9,7 @@ function App() {
 
   return (
     <>
-      <Nav/>
-    <Arry/>
-      {/* <Child1/> */}
-      <Bg/>
+      <Navbar/>
     </>
   )
 }
