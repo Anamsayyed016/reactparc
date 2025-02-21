@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 function Arry(){
-    let [c,SetC]=useState(0)
+    
             let ob={
 
                 name : "Anam",
@@ -10,10 +10,15 @@ function Arry(){
             }
                 let ar=["Ali", "Indore",123]
 
-                function Inc(){
-
-                }
+               function Inc(){
+                 setC(c+1)
+               } 
             
+               function Dec(){
+                    if(c!=0){
+                        setC(c-1)
+                    }
+               }
     return (
         <>
                 <h1>My name is {ob.name}</h1>
@@ -24,8 +29,11 @@ function Arry(){
                 <h2>My city is {ar[1]}</h2>
                 <h2>My num is {ar[2]}</h2>
 
-                <button onClick={Dec}>-</button>
-                <button onClick={Inc}>+</button>
+                {/* <button onClick={Inc}>+</button>
+                <button onClick={Dec}>-</button> */}
+
+<button onClick={Dec}>-</button>
+<button onClick={Inc}>+</button> 
         </>
     )
     
